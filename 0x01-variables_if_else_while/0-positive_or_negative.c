@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
   *main - Entry point
-  *Description: Check for number
+  *Description: 'Check for number'
   *Return: always 0
   */
 int main(void)
@@ -22,7 +22,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d is negatif\n", n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
