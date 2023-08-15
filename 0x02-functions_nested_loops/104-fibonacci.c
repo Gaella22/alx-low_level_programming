@@ -5,11 +5,12 @@
  * * @nbr: number
  * * Return: number
  * *
- * */
+ */
 int numbFunc(int nbr)
 {
 	int l = 0;
 	if (!nbr)
+
 		return (1);
 	while (nbr)
 	{
@@ -40,7 +41,7 @@ int main(void)
 			printf("%d", 0);
 			i--;
 		}
-		printf("%lu",f);
+		printf("%lu", f);
 		sum = (f + f1) % mx;
 		sum1 = f2 + f3 + (f + f1) / mx;
 		f = f1;
