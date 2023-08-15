@@ -10,7 +10,7 @@ int numbFunc(int nbr)
 {
 	int l = 0;
 
-	if (!nbr) 
+	if (!nbr)
 		return (1);
 	while (nbr)
 	{
