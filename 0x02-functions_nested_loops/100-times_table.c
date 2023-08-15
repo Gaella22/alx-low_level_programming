@@ -5,7 +5,7 @@
  * @n: number input
  *
  */
-void print_ttimes_table(int n)
+void print_times_table(int n)
 {
 	int n1, n2, tbl;
 
