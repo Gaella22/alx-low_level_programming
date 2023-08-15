@@ -13,7 +13,7 @@ int main(void)
 	for (nbr = 0; nbr < 1024; nbr++)
 	{
 		if ((nbr % 3 == 0) || (nbr % 5 == 0))
-			sum += sum;
+			sum += nbr;
 	}
 	printf("%d\n", sum);
 
