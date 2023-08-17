@@ -19,6 +19,7 @@ int main(void)
 			ml = nbr / l;
 		}
 	}
-	printf("%d\n", ml);
+	printf("%ld\n", ml);
+
 	return (0);
 }
