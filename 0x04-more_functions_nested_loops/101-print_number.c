@@ -13,9 +13,9 @@ void print_number(int n)
 		_putchar('-');
 		nbr = -nbr;
 	}
+	nbr /= 10;
+	if (nbr != 0)
+		print_number(nbr);
 
-	if ((nbr / 10) > 0)
-		print_number(nbr / 10);
-
-	_putchar((nbr % 10)) + 48);
+	_putchar((unsigned int) n % 10 + 48);
 }
