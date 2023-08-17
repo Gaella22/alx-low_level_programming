@@ -10,8 +10,9 @@ void print_number(int n)
 
 	if (n < 0)
 	{
+		n *= -1;
+		nbr = n;
 		_putchar('-');
-		nbr = -nbr;
 	}
 	nbr /= 10;
 	if (nbr != 0)
