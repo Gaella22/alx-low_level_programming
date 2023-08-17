@@ -9,7 +9,7 @@
 int main(void)
 {
 	long l, ml;
-	long nbr = 93948576201844;
+	long nbr = 612852475143;
 	double square = sqrt(nbr);
 
 	for (l = 1; l <= square; l++)
