@@ -3,7 +3,6 @@
  * print_number - integer
  *
  * @n: interger
- *
 */
 void print_number(int n)
 {
@@ -14,7 +13,9 @@ void print_number(int n)
 		_putchar('-');
 		nbr = -nbr;
 	}
+
 	if ((nbr / 10) > 0)
 		print_number(nbr / 10);
-	_putchar((nbr % 10)) + 48;
+
+	_putchar((nbr % 10)) + 48);
 }
