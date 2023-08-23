@@ -2,13 +2,12 @@
 
 /**
  * leet - encodes a string in 1337
- * @ : string
+ * @w: string
  * Return: string;
  */
-char *leet(char *)
+char *leet(char *w)
 {
 	int x, y;
-	char *w;
 
 	char *alp1 = "aAeEoOtTlL";
 	char *alp2 = "4433007711";
