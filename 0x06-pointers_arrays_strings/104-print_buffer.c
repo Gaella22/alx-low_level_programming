@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * print_buffer - prints a buffer
+ * print_buffer - print a buffer
  * @b: buffer
  * @size: size
- *
  * Return: void
  */
+
 void print_buffer(char *b, int size)
 {
 	int x, y, z;
@@ -40,7 +40,7 @@ void print_buffer(char *b, int size)
 
 			if (c < 32 || c > 132)
 			{
-				c = ',';
+				c = '.';
 			}
 			printf("%c", c);
 		}
